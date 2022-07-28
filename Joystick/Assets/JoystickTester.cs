@@ -6,6 +6,8 @@ using TMPro;
 [RequireComponent(typeof(TextMeshProUGUI))]
 public class JoystickTester : MonoBehaviour
 {
+    [Header("Press SPACE to enable/disable input.")]
+    [Space(50)]
     [Header("REMEMBER: Assign the Joystick you want to test.")]
     [SerializeField] Joystick joystickToTest; // assign by dragging joystick to test into field form inspector
     private TextMeshProUGUI debugText;

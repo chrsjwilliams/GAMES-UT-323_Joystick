@@ -9,7 +9,6 @@ using DG.Tweening;
 
 public class Joystick : MonoBehaviour
 {
-
     [SerializeField] Image joystick;
     [SerializeField] private Canvas UICanvas;
     [SerializeField] private RectTransform NavRoot;
@@ -70,7 +69,6 @@ public class Joystick : MonoBehaviour
             fingerID = finger;
             isDragging = true;
             joystick.transform.DOScale(Vector3.one, 0.2f);
-
         }
     }
 
