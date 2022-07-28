@@ -1,0 +1,34 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "PressKey",
+            "id": "47f868ae-18a1-4889-ab1f-e17c5e060c0d",
+            "actions": [
+                {
+                    "name": "Space",
+                    "type": "PassThrough",
+                    "id": "a9858ce1-13ba-4609-b22b-2f139ef81e4b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ca4e8e32-74f0-4a9a-bae9-3097d7661020",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Space",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
